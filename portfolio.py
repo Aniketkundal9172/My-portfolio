@@ -56,7 +56,7 @@ I enjoy web development, solving DSA problems, and exploring the world of AI/ML.
 
 # Skills Section
 st.header("Skills")
-skills = ["C++", "Python", "JavaScript", "React", "Node.js", "MySQL", "MongoDB", "DSA"]
+skills = ["Python", "C", "C++", "Java", "DSA", "MySQL", "HTML", "CSS", "JavaScript"]
 cols = st.columns(len(skills))
 for i, skill in enumerate(skills):
     with cols[i]:
