@@ -60,7 +60,7 @@ skills = ["Python", "C", "C++", "Java", "DSA", "MySQL", "HTML", "CSS", "JavaScri
 cols = st.columns(len(skills))
 for i, skill in enumerate(skills):
     with cols[i]:
-        st.markdown(f"<div style='padding: background: linear-gradient(to bottom right, rgba(99, 102, 241, 0.0), rgba(59, 130, 246, 0.8)), url("https://static.vecteezy.com/system/resources/previews/001/410/877/non_2x/programming-and-coding-futuristic-banner-vector.jpg"); background-size: cover; background-position: center; 8px 16px; background-color: #e0e7ff; color: #3730a3; border-radius: 20px; text-align: center; font-weight: 500; animation: fadeIn 1s;'>{skill}</div>", unsafe_allow_html=True)
+        st.markdown(f"<div style='padding: 8px 16px; background-color: #e0e7ff; color: #3730a3; border-radius: 20px; text-align: center; font-weight: 500; animation: fadeIn 1s;'>{skill}</div>", unsafe_allow_html=True)
 
 # Projects Section
 st.header("Projects")
@@ -136,6 +136,7 @@ st.markdown("""
     <hr />
     <p style='text-align: center; color: gray;'>© 2025 Aniket Kundal | Built with ❤️ using Python & Streamlit</p>
 """, unsafe_allow_html=True)
+
 
 
 
