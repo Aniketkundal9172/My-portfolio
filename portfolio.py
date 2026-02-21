@@ -5,9 +5,7 @@ st.set_page_config(page_title="Aniket Kundal | Portfolio", page_icon="", layout=
 
 # Hero Section
 st.markdown("""
-
     <div style='text-align: center; padding: 4rem 1rem; background: linear-gradient(to bottom right, #6366f1, #3b82f6); color: white; border-radius: 20px;'>
-    
         <img src='https://media.licdn.com/dms/image/v2/D5603AQGNsypT_EWipQ/profile-displayphoto-scale_200_200/B56ZlCuBr6JoAY-/0/1757760990483?e=1773273600&v=beta&t=_3wW4zkqxN2-jeQjdLJxdS6JkAi4jhqObMaLQzheyGI' style='width: 160px; height: 160px; border-radius: 50%; border: 4px solid white; box-shadow: 0 0 20px rgba(0,0,0,0.2); animation: fadeIn 2s;'>
         <h1 style='font-size: 3rem; margin-top: 1rem;'>Hi, I'm <span style='color: #ffe600;'>Aniket Kundal</span></h1>
         <p style='font-size: 1.3rem;'>B.Tech CSE Student | Aspiring Software Developer</p>
@@ -138,6 +136,7 @@ st.markdown("""
     <hr />
     <p style='text-align: center; color: gray;'>© 2025 Aniket Kundal | Built with ❤️ using Python & Streamlit</p>
 """, unsafe_allow_html=True)
+
 
 
 
