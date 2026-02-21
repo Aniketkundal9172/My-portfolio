@@ -5,7 +5,7 @@ st.set_page_config(page_title="Aniket Kundal | Portfolio", page_icon="", layout=
 
 # Hero Section
 st.markdown("""
-    <div style='text-align: center; padding: 4rem 1rem; background: linear-gradient(to bottom right, rgba(99, 102, 241, 0.5), rgba(59, 130, 246, 0.8)), url("https://static.vecteezy.com/system/resources/previews/001/410/877/non_2x/programming-and-coding-futuristic-banner-vector.jpg"); background-size: cover; background-position: center; color: white; border-radius: 20px;'>
+    <div style='text-align: center; padding: 4rem 1rem; background: linear-gradient(to bottom right, rgba(99, 102, 241, 0.0), rgba(59, 130, 246, 0.8)), url("https://static.vecteezy.com/system/resources/previews/001/410/877/non_2x/programming-and-coding-futuristic-banner-vector.jpg"); background-size: cover; background-position: center; color: white; border-radius: 20px;'>
         <img src='https://media.licdn.com/dms/image/v2/D5603AQGNsypT_EWipQ/profile-displayphoto-scale_200_200/B56ZlCuBr6JoAY-/0/1757760990483?e=1773273600&v=beta&t=_3wW4zkqxN2-jeQjdLJxdS6JkAi4jhqObMaLQzheyGI' style='width: 160px; height: 160px; border-radius: 50%; border: 4px solid white; box-shadow: 0 0 20px rgba(0,0,0,0.2); animation: fadeIn 2s;' alt='Aniket Kundal'>
         <h1 style='font-size: 3rem; margin-top: 1rem;'>Hi, I'm <span style='color: #ffe600;'>Aniket Kundal</span></h1>
         <p style='font-size: 1.3rem;'>B.Tech CSE Student | Aspiring Software Developer</p>
@@ -60,7 +60,7 @@ skills = ["Python", "C", "C++", "Java", "DSA", "MySQL", "HTML", "CSS", "JavaScri
 cols = st.columns(len(skills))
 for i, skill in enumerate(skills):
     with cols[i]:
-        st.markdown(f"<div style='padding: 8px 16px; background-color: #e0e7ff; color: #3730a3; border-radius: 20px; text-align: center; font-weight: 500; animation: fadeIn 1s;'>{skill}</div>", unsafe_allow_html=True)
+        st.markdown(f"<div style='padding: background: linear-gradient(to bottom right, rgba(99, 102, 241, 0.0), rgba(59, 130, 246, 0.8)), url("https://static.vecteezy.com/system/resources/previews/001/410/877/non_2x/programming-and-coding-futuristic-banner-vector.jpg"); background-size: cover; background-position: center; 8px 16px; background-color: #e0e7ff; color: #3730a3; border-radius: 20px; text-align: center; font-weight: 500; animation: fadeIn 1s;'>{skill}</div>", unsafe_allow_html=True)
 
 # Projects Section
 st.header("Projects")
@@ -136,6 +136,7 @@ st.markdown("""
     <hr />
     <p style='text-align: center; color: gray;'>© 2025 Aniket Kundal | Built with ❤️ using Python & Streamlit</p>
 """, unsafe_allow_html=True)
+
 
 
 
